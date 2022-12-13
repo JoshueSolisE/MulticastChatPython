@@ -6,7 +6,7 @@ HEADER_LENGTH = 10
 #Para la IP debemos tomar en cuenta que se hara la conexion desde la copmutadora donde estara alojado el servidor
 #Por lo tanto hay que cambiar este parametro para que coincida con la direccion IP del servidor
 #Buscar mediante un CMD con la instruccion ipconfig la direccion IPv4 y remplazar el parametro
-IP = "192.168.100.5"
+IP = "xxx.xxx.xxx.xxx"
 PORT = 1234
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
